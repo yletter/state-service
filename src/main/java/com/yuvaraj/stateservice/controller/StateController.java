@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 @RequestMapping("/states")
-public class UserController {
+public class StateController {
     @GetMapping
     public String getState() {
         return "State Service - List of States";
